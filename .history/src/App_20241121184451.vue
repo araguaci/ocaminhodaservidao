@@ -8,7 +8,7 @@
 <script>
 export default {
   mounted() {
-    this.openPdf()
+    //this.openPdf()
   },
   methods: {
     openPdf() {

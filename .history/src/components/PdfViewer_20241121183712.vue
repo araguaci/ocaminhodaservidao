@@ -12,13 +12,14 @@ export default {
   },
   methods: {
     openPdf() {
-      const file = 'ocaminhodaservidao.pdf'  
-      window.open(`/${file}`, '_self')
+      const file = this.$route.params.file
+      const pdfUrl = '/ocaminhodaservidao' + file + '.pdf'
+      // window.open(pdfUrl, '_blank')
     }
   }
 }
 </script>
-<style>
+<style scoped>
 .sx-link {
   position: absolute;
   right: 10px;
