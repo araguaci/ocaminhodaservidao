@@ -1,21 +1,24 @@
 {
-  "name": "pdf-viewer-portfolio",
-  "version": "0.0.0",
+  "name": "ocaminhodaservidao",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67",
   "dependencies": {
-    "pdfjs-dist": "^3.6.172",
-    "vue": "^3.2.47",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "pdfjs-dist": "^5.4.149",
+    "vite": "^7.1.6",
+    "vue": "^3.5.21",
     "vue-pdf": "^4.3.0",
-    "vue-router": "^4.2.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.1",
-    "vite": "^4.3.4"
-  },
-  "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67"
+    "vue-router": "^4.5.1"
+  }
 }
